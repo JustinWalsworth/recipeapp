@@ -1,0 +1,111 @@
+/* set header tags to Itim font */
+h1 {
+  font-family: 'Itim', cursive;
+}
+
+/* Converts H2 content to uppercase with specific size and bottom margin */
+h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 0.3em;
+}
+
+/* Set unordered lists (ul) and ordered lists (ol) with specific margin and padding */
+ul, ol {
+  margin-top: 0;
+  padding-left: 1em;
+}
+
+/* Sets the navbar position and style */
+#navbar {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    background-color: grey;
+}
+
+/* Sets the navbar ul position and style */
+#navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* Sets the navbar ul li position and style */
+#navbar ul li {
+    float: left;
+    padding: 10px 20px 0 10px;
+    color: white;
+}
+
+/* Sets the text on the image at the top with dimensions and background */
+#img_text {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Sets the H1 tag for the text on the image with position and style */
+#img_text h1 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 10px;
+  left: 48px;
+  color: #fff;
+  text-shadow: 0 0 10px #444;
+}
+
+/* Sets up overall column parent */
+#columns {
+  display: grid;
+  position: relative;
+}
+
+/* Set column inside the column parent to width and float */
+#columns div {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+/* Individual divs that fall inside the column parent */
+#ingredients {
+  float: left;
+}
+
+#directions {
+  float: left;
+}
+
+/* To clear items afterwards so they don't wrap into the float area, a little CSS trick applied to the parent element */
+div#columns:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* Sets the fine print on the footer */
+.copyright {
+  font-family: 'Arial';
+  font-size: 9px;
+  font-style: italic;
+}
+
+@media (min-width: 576px) {
+  #columns{
+    grid-template-columns: auto auto auto;
+    gri-template-rows: auto;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  #columns {
+    grid-template-columns: auto;
+    grid template rows: auto auto auto;
+    margin-left: 125px;
+  }
+}
