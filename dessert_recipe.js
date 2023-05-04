@@ -56,13 +56,21 @@ function Recipe(a, b, c, d, e) {
     
 } // end Recipe() object constructor
 
-// makes new object for "PeanutButterMMCookie" passing name, ingredients, directions, and photo
+// makes new object for "PeanutButterMMCookie" passing name, ingredients, directions, ratings, and photo
 let PeanutButterMMCookie = new Recipe("Peanut Butter M&M Cookie", "dst-pbmmc-ingredients.html", "dst-pbmmc-directions.html", "dst-pbmmc-ratings.html", "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F-0001%2F11%2F30%2F1674497176DSC_1299202-2000.jpg&q=60&c=sc&orient=true&poi=auto&h=512"); 
 
-// makes new object for "MudPie" passing name, ingredients, directions, and photo
+// makes new object for "MudPie" passing name, ingredients, directions, ratings, and photo
 let MudPie = new Recipe("Mud Pie", "dst-mp-ingredients.html", "dst-mp-directions.html", "dst-mp-ratings.html", "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9018512.jpg&q=60&c=sc&orient=true&poi=auto&h=512");
 
+// makes new object for "ChocolateTrifle" passing name, ingredients, directions, ratings, and photo
 let ChocolateTrifle = new Recipe("Chocolate Trifle", "dst-ct-ingredients.html", "dst-ct-directions.html", "dst-ct-ratings.html", "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2F05970a1604bee9dd268e5411779787d3%2F168106258048050AD3FCB-5CFD-4262-B51E-38E64F05C690.jpeg&q=60&c=sc&orient=true&poi=auto&h=512");
+
+// makes new object for "StrawberryIceCream" passing name, ingredients, directions, ratings, and photo
+let StrawberryIceCream = new Recipe("Strawberry Ice Cream", "dst-sic-ingredients.html", "dst-sic-directions.html", "dst-sic-ratings.html", "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F815784.jpg&q=60&c=sc&orient=true&poi=auto&h=512");
+
+// makes new object for "ChocolateCoveredStrawberries" passing name, ingredients, directions, ratings, and photo
+let ChocolateCoveredStrawberries = new Recipe("Chocolate-Covered Strawberries", "dst-ccs-ingredients.html", "dst-ccs-directions.html", "dst-ccs-ratings.html", "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9006106.jpg&q=60&c=sc&orient=true&poi=auto&h=512");
+
 // don't do anything until the DOM loads
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -71,5 +79,9 @@ document.addEventListener("DOMContentLoaded", function() {
     MudPie.addToNav();
     
     ChocolateTrifle.addToNav();
+    
+    StrawberryIceCream.addToNav();
+    
+    ChocolateCoveredStrawberries.addToNav();
     
 });

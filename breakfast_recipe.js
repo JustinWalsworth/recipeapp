@@ -65,6 +65,12 @@ let ChocolateCerealBars = new Recipe("Chocolate Cereal Bars", "bf-ccb-ingredient
 // makes new object for "CrispyHashBrowns" passing name, ingredients, directions, and photo
 let CrispyHashBrowns = new Recipe("Crispy Hash Browns", "bf-hchb-ingredients.html", "bf-hchb-directions.html", "bf-hchb-ratings.html", "https://1.bp.blogspot.com/-T_2oOxbUNpw/UhGhBztqWEI/AAAAAAAAAkk/FcgpRVDnCO8/s1600/hashbrown.jpg");
 
+// makes new object for "CrispyFriedPoachedEggs" passing name, ingredients, directions, and photo
+let CripsyFriedPoachedEggs = new Recipe("Crispy Fried Poached Eggs", "bf-cfpe-ingredients.html", "bf-cfpe-directions.html", "bf-cfpe-ratings.html", "https://th.bing.com/th/id/OIP.ONntd1TvbA8e__mArjBY3gHaFj?pid=ImgDet&rs=1");
+
+// makes new object for "Crepes" passing name, ingredients, directions, ratings, and photo
+let Crepes = new Recipe("Crepes", "bf-dc-ingredients.html", "bf-dc-directions.html", "bf-dc-ratings.html", "https://www.bing.com/images/blob?bcid=s788x7jYBI4FyS6seN2aj-zL.OVU.....1Y");
+
 // don't do anything until the DOM loads
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -73,5 +79,9 @@ document.addEventListener("DOMContentLoaded", function() {
     ChocolateCerealBars.addToNav();
     
     CrispyHashBrowns.addToNav();
+    
+    CripsyFriedPoachedEggs.addToNav();
+    
+    Crepes.addToNav();
     
 });

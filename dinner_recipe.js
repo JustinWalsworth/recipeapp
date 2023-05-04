@@ -56,17 +56,31 @@ function Recipe(a, b, c, d, e) {
     
 } // end Recipe() object constructor
 
-// makes new object for "PeanutButterMMCookie" passing name, ingredients, directions, and photo
-let PeanutButterMMCookie = new Recipe("Peanut Butter M&M Cookie", "dst-pbmmc-ingredients.html", "dst-pbmmc-directions.html", "dst-pbmmc-ratings.html", "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F-0001%2F11%2F30%2F1674497176DSC_1299202-2000.jpg&q=60&c=sc&orient=true&poi=auto&h=512"); 
+// makes new object for "PrimeRib" passing name, ingredients, directions, and photo
+let PrimeRib = new Recipe("Prime Rib", "din-pr-ingredients.html", "din-pr-directions.html", "din-pr-ratings.html", "https://www.bing.com/images/blob?bcid=s.BGtOoKXI4FyS6seN2aj-zL.OVU.....94");
 
-// makes new object for "MudPie" passing name, ingredients, directions, and photo
-let MudPie = new Recipe("Mud Pie", "dst-mp-ingredients.html", "dst-mp-directions.html", "dst-mp-ratings.html", "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9018512.jpg&q=60&c=sc&orient=true&poi=auto&h=512");
+// makes new object for "PanSearedSteak" passing name, ingredients, directions, and photo
+let PanSearedSteak = new Recipe("Pan-Seared Steak", "din-pss-ingredients.html", "din-pss-directions.html", "din-pss-ratings.html", "https://www.bing.com/images/blob?bcid=szGbvjylZY4FyS6seN2aj-zL.OVU.....6M");
+
+// makes new object for "PestoPasta" passing name, ingredients, directions, and photo
+let PestoPasta = new Recipe("Pesto Pasta", "din-pp-ingredients.html", "din-pp-directions.html", "din-pp-ratings.html", "https://www.bing.com/images/blob?bcid=T8t3WJ11NY4FqxcxoNWLuD9SqbotqVTdPxM");
+
+// makes new object for "RosemaryChickenFries" passing name, ingredients, directions, and photo
+let RosemaryChickenFries = new Recipe("Crispy Rosemary Chicken and Fries", "din-crcf-ingredients.html", "din-crcf-directions.html", "din-crcf-ratings.html", "https://www.bing.com/images/blob?bcid=TySR-hayI44FqxcxoNWLuD9SqbotqVTdP1s");
+
+// makes new object for "RoastedSausageVeggie" passing name, ingredients, directions, and photo
+let RoastedSausageVeggie = new Recipe("Roasted Sausage and Vegetable Sheet", "din-rsvs-ingredients.html", "din-rsvs-directions.html", "din-rsvs-ratings.html", "https://www.bing.com/images/blob?bcid=TxLAYvNG6Y4FqxcxoNWLuD9SqbotqVTdP6k");
 
 // don't do anything until the DOM loads
 document.addEventListener("DOMContentLoaded", function() {
 
-    PeanutButterMMCookie.addToNav();
+    PrimeRib.addToNav();
     
-    MudPie.addToNav();
+    PanSearedSteak.addToNav();
     
+    PestoPasta.addToNav();
+    
+    RosemaryChickenFries.addToNav();
+    
+    RoastedSausageVeggie.addToNav();
 });
