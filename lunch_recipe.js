@@ -57,19 +57,19 @@ function Recipe(a, b, c, d, e) {
 } // end Recipe() object constructor
 
 // makes new object for "Hamburger" passing name, ingredients, directions, and photo
-let Hamburger = new Recipe("Hamburger", "lun-hb-ingredients.html", "lun-hb-directions.html", "lun-hb-ratings.html", "https://www.bing.com/images/blob?bcid=s4vbvamOeY4FyS6seN2aj-zL.OVU.....6U");
+let Hamburger = new Recipe("Hamburger", "lun-hb-ingredients.html", "lun-hb-directions.html", "lun-hb-ratings.html", "/recipeapp/images/hamburger.jpg");
 
 // makes new object for "GrilledCheese" passing name, ingredients, directions, and photo
-let GrilledCheese = new Recipe("Grilled Cheese Sandwich", "lun-gcs-ingredients.html", "lun-gcs-directions.html", "lun-gcs-ratings.html", "https://www.bing.com/images/blob?bcid=s6YkJhuw-Y4FyS6seN2aj-zL.OVU.....-w");
+let GrilledCheese = new Recipe("Grilled Cheese Sandwich", "lun-gcs-ingredients.html", "lun-gcs-directions.html", "lun-gcs-ratings.html", "/recipeapp/images/grilledcheese.jpg");
 
 // makes new object for "CornDogs" passing name, ingredients, directions, and photo
-let CornDogs = new Recipe("Corn Dogs", "lun-cd-ingredients.html", "lun-cd-directions.html", "lun-cd-ratings.html", "https://www.bing.com/images/blob?bcid=s-nie5G1ao4FyS6seN2aj-zL.OVU.....-Y");
+let CornDogs = new Recipe("Corn Dogs", "lun-cd-ingredients.html", "lun-cd-directions.html", "lun-cd-ratings.html", "/recipeapp/images/corndogs.jpg");
 
 // makes new object for "ReubenSandwich" passing name, ingredients, directions, and photo
-let ReubenSandwich = new Recipe("Reuben Sandwich", "lun-rs-ingredients.html", "lun-rs-directions.html", "lun-rs-ratings.html", "https://www.bing.com/images/blob?bcid=T17vKUgY344FqxcxoNWLuD9SqbotqVTdP4I");
+let ReubenSandwich = new Recipe("Reuben Sandwich", "lun-rs-ingredients.html", "lun-rs-directions.html", "lun-rs-ratings.html", "/recipeapp/images/reuben.jpg");
 
 // makes new object for "CornDogs" passing name, ingredients, directions, and photo
-let TomatoSoup = new Recipe("Tomato Soup", "lun-ts-ingredients.html", "lun-ts-directions.html", "lun-ts-ratings.html", "https://www.bing.com/images/blob?bcid=T5FZWXZZc44FqxcxoNWLuD9SqbotqVTdP8Y");
+let TomatoSoup = new Recipe("Tomato Soup", "lun-ts-ingredients.html", "lun-ts-directions.html", "lun-ts-ratings.html", "/recipeapp/images/tomatosoup.jpg");
 
 // don't do anything until the DOM loads
 document.addEventListener("DOMContentLoaded", function() {

@@ -57,19 +57,19 @@ function Recipe(a, b, c, d, e) {
 } // end Recipe() object constructor
 
 // makes new object for "WholeWheatPancakes" passing name, ingredients, directions, and photo
-let WholeWheatPancakes = new Recipe("Whole Wheat Pancakes", "bf-wwp-ingredients.html", "bf-wwp-directions.html", "bf-wwp-ratings.html", "https://th.bing.com/th/id/OIP.l37g2LLszZiDA7ogLiSLHwHaEK?pid=ImgDet&rs=1"); 
+let WholeWheatPancakes = new Recipe("Whole Wheat Pancakes", "bf-wwp-ingredients.html", "bf-wwp-directions.html", "bf-wwp-ratings.html", "/recipeapp/images/pancakes.jpg"); 
 
 // makes new object for "ChocolateCerealBars" passing name, ingredients, directions, and photo
-let ChocolateCerealBars = new Recipe("Chocolate Cereal Bars", "bf-ccb-ingredients.html", "bf-ccb-directions.html", "bf-ccb-ratings.html", "https://th.bing.com/th/id/OIP.mroULhuLklE-MCZEIOByaQAAAA?pid=ImgDet&rs=1");
+let ChocolateCerealBars = new Recipe("Chocolate Cereal Bars", "bf-ccb-ingredients.html", "bf-ccb-directions.html", "bf-ccb-ratings.html", "/recipeapp/images/cerealbar.jpg");
 
 // makes new object for "CrispyHashBrowns" passing name, ingredients, directions, and photo
-let CrispyHashBrowns = new Recipe("Crispy Hash Browns", "bf-hchb-ingredients.html", "bf-hchb-directions.html", "bf-hchb-ratings.html", "https://1.bp.blogspot.com/-T_2oOxbUNpw/UhGhBztqWEI/AAAAAAAAAkk/FcgpRVDnCO8/s1600/hashbrown.jpg");
+let CrispyHashBrowns = new Recipe("Crispy Hash Browns", "bf-hchb-ingredients.html", "bf-hchb-directions.html", "bf-hchb-ratings.html", "/recipeapp/images/hashbrowns.jpg");
 
 // makes new object for "CrispyFriedPoachedEggs" passing name, ingredients, directions, and photo
-let CripsyFriedPoachedEggs = new Recipe("Crispy Fried Poached Eggs", "bf-cfpe-ingredients.html", "bf-cfpe-directions.html", "bf-cfpe-ratings.html", "https://th.bing.com/th/id/OIP.ONntd1TvbA8e__mArjBY3gHaFj?pid=ImgDet&rs=1");
+let CripsyFriedPoachedEggs = new Recipe("Crispy Fried Poached Eggs", "bf-cfpe-ingredients.html", "bf-cfpe-directions.html", "bf-cfpe-ratings.html", "/recipeapp/images/poachedeggs.jpg");
 
 // makes new object for "Crepes" passing name, ingredients, directions, ratings, and photo
-let Crepes = new Recipe("Crepes", "bf-dc-ingredients.html", "bf-dc-directions.html", "bf-dc-ratings.html", "https://www.bing.com/images/blob?bcid=s788x7jYBI4FyS6seN2aj-zL.OVU.....1Y");
+let Crepes = new Recipe("Crepes", "bf-dc-ingredients.html", "bf-dc-directions.html", "bf-dc-ratings.html", "/recipeapp/images/crepes.jpg");
 
 // don't do anything until the DOM loads
 document.addEventListener("DOMContentLoaded", function() {

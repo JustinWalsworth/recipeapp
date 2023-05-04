@@ -57,19 +57,19 @@ function Recipe(a, b, c, d, e) {
 } // end Recipe() object constructor
 
 // makes new object for "PrimeRib" passing name, ingredients, directions, and photo
-let PrimeRib = new Recipe("Prime Rib", "din-pr-ingredients.html", "din-pr-directions.html", "din-pr-ratings.html", "https://www.bing.com/images/blob?bcid=s.BGtOoKXI4FyS6seN2aj-zL.OVU.....94");
+let PrimeRib = new Recipe("Prime Rib", "din-pr-ingredients.html", "din-pr-directions.html", "din-pr-ratings.html", "/recipeapp/images/primerib.jpg");
 
 // makes new object for "PanSearedSteak" passing name, ingredients, directions, and photo
-let PanSearedSteak = new Recipe("Pan-Seared Steak", "din-pss-ingredients.html", "din-pss-directions.html", "din-pss-ratings.html", "https://www.bing.com/images/blob?bcid=szGbvjylZY4FyS6seN2aj-zL.OVU.....6M");
+let PanSearedSteak = new Recipe("Pan-Seared Steak", "din-pss-ingredients.html", "din-pss-directions.html", "din-pss-ratings.html", "/recipeapp/images/steak.jpg");
 
 // makes new object for "PestoPasta" passing name, ingredients, directions, and photo
-let PestoPasta = new Recipe("Pesto Pasta", "din-pp-ingredients.html", "din-pp-directions.html", "din-pp-ratings.html", "https://www.bing.com/images/blob?bcid=T8t3WJ11NY4FqxcxoNWLuD9SqbotqVTdPxM");
+let PestoPasta = new Recipe("Pesto Pasta", "din-pp-ingredients.html", "din-pp-directions.html", "din-pp-ratings.html", "/recipeapp/images/pasta.jpg");
 
 // makes new object for "RosemaryChickenFries" passing name, ingredients, directions, and photo
-let RosemaryChickenFries = new Recipe("Crispy Rosemary Chicken and Fries", "din-crcf-ingredients.html", "din-crcf-directions.html", "din-crcf-ratings.html", "https://www.bing.com/images/blob?bcid=TySR-hayI44FqxcxoNWLuD9SqbotqVTdP1s");
+let RosemaryChickenFries = new Recipe("Crispy Rosemary Chicken and Fries", "din-crcf-ingredients.html", "din-crcf-directions.html", "din-crcf-ratings.html", "/recipeapp/images/chickenfries.jpg");
 
 // makes new object for "RoastedSausageVeggie" passing name, ingredients, directions, and photo
-let RoastedSausageVeggie = new Recipe("Roasted Sausage and Vegetable Sheet", "din-rsvs-ingredients.html", "din-rsvs-directions.html", "din-rsvs-ratings.html", "https://www.bing.com/images/blob?bcid=TxLAYvNG6Y4FqxcxoNWLuD9SqbotqVTdP6k");
+let RoastedSausageVeggie = new Recipe("Roasted Sausage and Vegetable Sheet", "din-rsvs-ingredients.html", "din-rsvs-directions.html", "din-rsvs-ratings.html", "/recipeapp/images/sausageveggie.jpg");
 
 // don't do anything until the DOM loads
 document.addEventListener("DOMContentLoaded", function() {
