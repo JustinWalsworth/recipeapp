@@ -1,2 +1,2 @@
 # recipeapp
-A recipe app for my Major Project
+The recipe app for my Major Project
