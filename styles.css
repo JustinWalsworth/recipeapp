@@ -80,6 +80,10 @@ ul, ol {
   float: left;
 }
 
+#ratings {
+  float: left;
+}
+
 /* To clear items afterwards so they don't wrap into the float area, a little CSS trick applied to the parent element */
 div#columns:after {
   content: '';
